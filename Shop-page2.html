@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SẢN PHẨM</title>
+  <link rel="icon" type="image/x-icon" href="/Image/icon-01.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/Shop2.css" />
+  <script src="./js/jquery.js"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="header">
+    <div id="logo" class="col-lg-2 col-md-2 col-sm-12">
+      <h1>
+        <a href="/"><img src="./Image/logo_web.png" alt="" /></a>
+      </h1>
+    </div>
+
+    <div id="menu" class="col-lg-7 col-md-7 col-sm-12">
+      <ul class="nav justify-content-center">
+        <li class="menu-item">
+          <a href="/">TRANG CHỦ</a>
+        </li>
+        <li class="menu-item">
+          <a href="Shop.html">SẢN PHẨM</a>
+        </li>
+
+        <li class="menu-item">
+          <a href="Contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="nav_icon" class="col-lg-3 col-md-3 col-sm-12">
+      <ul>
+        <li class="nav_icon-item fa fa-search"><a href="#"></a></li>
+        <li class="nav_icon-item fa fa-user"><a href="#"></a></li>
+        <li class="nav_icon-item fa fa-heart-o"><a href="#"></a></li>
+        <li class="nav_icon-item fa fa-shopping-bag"><a href="#"></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- MAIN TITLE -->
+  <div id="main_title" class="col-lg-12 col-md-12 col-sm-12">
+    <h2>SẢN PHẨM</h2>
+    <div id="menu">
+      <span><a href="/">TRANG CHỦ </a></span>
+      <span> > SẢN PHẨM</span>
+    </div>
+  </div>
+  <!-- END MAIN TITLE -->
+
+  <!-- BODY -->
+  <div id="body">
+    <div class="container">
+      <div class="row">
+        <div id="sidebar" class="col-lg-3 col-md-3 col-sm-12">
+          <div id="classify">
+            <h3>
+              PHÂN LOẠI <br />
+              SẢN PHẨM
+            </h3>
+            <h4>
+              <a href="AROMATHERAPY.html">Liệu pháp mùi hương</a>
+            </h4>
+            <h4><a href="Bath.html">Sữa tắm</a></h4>
+            <h4>
+              <a href="Haircare.html">Chăm sóc tóc</a>
+            </h4>
+            <h4>
+              <a href="Skincare.html">Chăm sóc da</a>
+            </h4>
+          </div>
+
+          <div id="price">
+            <h3>MỨC GIÁ</h3>
+            <form>
+              <div class="form-group">
+                <input type="range" class="form-control-range" id="formControlRange" />
+                <label for="formControlRange">Price: 300.000đ - 1.000.000đ</label>
+              </div>
+            </form>
+            <button type="button">FILTER</button>
+          </div>
+
+          <div id="color">
+            <h3>MÀU SẮC</h3>
+            <div id="black">
+              <span></span>
+              <a href="#">Black</a>
+            </div>
+
+            <div id="brown">
+              <span></span>
+              <a href="#">Light Brown</a>
+            </div>
+
+            <div id="strawberry">
+              <span></span>
+              <a href="#">Strawberry</a>
+            </div>
+          </div>
+
+          <div id="capacity">
+            <h3>DUNG TÍCH</h3>
+            <span><a href="#">4 oz</a></span>
+            <span><a href="#">8 oz</a></span>
+            <span><a href="#">12 oz</a></span>
+          </div>
+
+          <div id="brand">
+            <h3>BRAND</h3>
+            <div id="Aerin">
+              <span></span>
+              <a href="#">Purad'or</a>
+            </div>
+          </div>
+        </div>
+
+        <div id="main-content" class="col-lg-9 col-md-9 col-sm-12">
+          <!-- FILTER FIELD -->
+          <div id="filter_field">
+            <div id="show_result" class="col-lg-8 col-md-5 col-sm-12">
+              <span>SHOWING 1–12 OF 24 RESULTS</span>
+            </div>
+
+            <div id="select_option" class="col-lg-2 col-md-4 col-sm-12">
+              <select>
+                <option value="DEFAULT SORTING">DEFAULT SORTING</option>
+                <option value="SORT BY POPULARITY">SORT BY POPULARITY</option>
+                <option value="SORT BY AVERAGE RATING">
+                  SORT BY AVERAGE RATING
+                </option>
+                <option value="SORT BY LASTEST">SORT BY LASTEST</option>
+                <option value="SORT BY PRICE">
+                  SORT BY PRICE: LOW TO HIGH
+                </option>
+                <option value="SORT BY PRICE">
+                  SORT BY PRICE: HIGH TO LOW
+                </option>
+              </select>
+            </div>
+
+            <div id="filter" class="col-lg-2 col-md-3 col-sm-12">
+              <button type="button">FILTER</button>
+            </div>
+          </div>
+          <!-- END FILTER FIELD -->
+
+          <!-- PRODUCTS -->
+          <div class="products-items">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="new sale">-11%</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Bath/BETTERBELLY ORGANIC ALOE VERA GEL.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Gel lô hội hữu cơ dưỡng ẩm ngăn ngừa rạn da PURAD’OR</a>
+                    </h5>
+                    <p>390.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Bath/HEALING ORGANIC ALOE VERA GEL.jpg" class="card-img-top img-fluid" alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Gel lô hội Healing Organic Aloe Vera Gel
+                      </a>
+                    </h5> <br>
+                    <p>420.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Bath/FOOTFOCUS ALOE VERA GEL.jpg" class="card-img-top img-fluid" alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Gel dưỡng ẩm da chân PURAD'OR FootFocus</a>
+                    </h5> <br>
+                    <p>520.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-items">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="new sale">-11%</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/AROMATHERAPY/LEMON ESSENTIAL OIL.jpg" class="card-img-top img-fluid" alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Tinh dầu chanh hữu cơ nguyên chất tự nhiên PURA D’OR</a>
+                    </h5>
+                    <p>470.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/AROMATHERAPY/PEPPERMINT ESSENTIAL OIL.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Tinh dầu bạc hà hữu cơ nguyên chất tự nhiên PURA D’OR</a>
+                    </h5>
+                    <p>470.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new" style="background: none"></div>
+
+                <div class="card h-100 bg_color">
+                  <img src="./Image/AROMATHERAPY/ROSEMARY ESSENTIAL OIL.jpg" class="card-img-top img-fluid" alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Tinh dầu hương thảo hữu cơ nguyên chất
+                        PURA D’OR
+                      </a>
+                    </h5>
+                    <p>470.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="products-items">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="new sale">-11%</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/HAIR THINNING THERAPY SCALP SERUM.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Tinh chất ngăn ngừa rụng tóc PURA D'OR Therapy Energizing Scalp</a>
+                    </h5>
+                    <p>520.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/COLORHARMONY PURPLE CONDITIONER.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Dầu xả tím PURA D'OR ColorHarmony giữ màu tóc, phục hồi tóc hư tổn</a>
+                    </h5>
+                    <p>480.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/COLORHARMONY PURPLE SHAMPOO.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Dầu gội tím PURA D'OR ColorHarmony giữ màu tóc, phục hồi tóc hư tổn</a>
+                    </h5>
+                    <p>490.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="products-items">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="new sale">-11%</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/HEALING HAIR MASQUE.jpg" class="card-img-top img-fluid" alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Mặt nạ phục hồi tóc hư tổn PURA D'OR HairClimax: Healing Virgin</a>
+                    </h5>
+                    <p>520.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/PROFESSIONAL BIOTIN SHAMPOO.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Dầu gội Biotin PURA D'OR Professional Grade phục hồi tóc hư tổn chuyên sâu</a>
+                    </h5>
+                    <p>890.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="new">New</div>
+                <div class="card h-100 bg_color">
+                  <img src="./Image/Hair care/HEALING ARGAN OIL CONDITIONER.jpg" class="card-img-top img-fluid"
+                    alt="..." />
+                  <div class="card-body fix_size">
+                    <h5 class="card-title">
+                      <a href="#">Dầu xả PURA D'OR Healing Argan Oil giảm gàu do da đầu khô kích ứng</a>
+                    </h5>
+                    <p>480.000đ</p>
+                    <a href="#"><button type="button" class="btn btn-default">
+                        Mua Hàng
+                      </button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- END PRODUCTS -->
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="page_number">
+          <a href="Shop.html">
+            <div class="page_number-item page1">1</div>
+          </a>
+
+          <div class="page_number-item page2">2</div>
+
+          <a href="#">
+            <div class="page_number-item page3 fa fa-angle-right"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- END POST -->
+
+    <!-- END LASTEST NEWS -->
+  </div>
+  <!-- END BODY -->
+
+  <!-- Footer Top -->
+  <div id="menu-bottom">
+    <div class="container">
+      <div class="row">
+        <ul class="nav justify-content-center col-lg-12 col-md-12 col-sm-12">
+          <li class="menu-item-bottom"><a href="#">TRANG CHỦ</a></li>
+          <li class="menu-item-bottom">
+            <a href="Contact.html">CONTACT</a>
+          </li>
+          <li class="menu-item-bottom"><a href="FAQ.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer Top -->
+
+  <!-- Footer-bottom -->
+  <div id="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div id="contact_infor-bottom" class="col-lg-4 col-md-4 col-sm-12">
+          <ul>
+            <li class="infor-item fa fa-phone">
+              <a href="#">+84 246 269 8999</a>
+            </li>
+
+            <li class="infor-item fa fa-envelope">
+              <a href="#">contact@founderscap.sg</a>
+            </li>
+
+            <li class="infor-item fa fa-map-marker">
+              <span><a href="#">Star Tower, 68 Dương Đình Nghệ</a></span>
+            </li>
+
+            <li class="infor-item fa fa-clock-o">
+              <span><a href="#">Mon-Fri: 9:00 - 18:00</a></span>
+            </li>
+          </ul>
+        </div>
+
+        <div id="social_media-bottom" class="col-lg-4 col-md-4 col-sm-12">
+          <h4>
+            <a href="/">F C O M M E R C E</a>
+          </h4>
+          <ul class="nav justify-content-center">
+            <li class="media-item">
+              <a href="#" class="fa fa-facebook"></a>
+            </li>
+            <li class="media-item"><a href="#" class="fa fa-twitter"></a></li>
+            <li class="media-item"><a href="#" class="fa fa-youtube"></a></li>
+            <li class="media-item">
+              <a href="#" class="fa fa-instagram"></a>
+            </li>
+          </ul>
+        </div>
+
+        <div id="description" class="col-lg-4 col-md-4 col-sm-12">
+          <p>
+            Công thức của chúng tôi được làm bằng tự nhiên,<br> hữu cơ,
+            và các thành phần không độc hại, <br>
+            nhẹ nhàng, hiệu quả và tốt cho bạn và
+            môi trường.
+          </p>
+          <button type="button" style="padding-right: 0">XEM THÊM</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div id="copyright" class="col-lg-6 col-md-6 col-sm-12">
+          <p>© 2023 FCommerce. All rights reserved.</p>
+        </div>
+
+        <div id="policy_term_FAQ" class="col-lg-6 col-md-6 col-sm-12">
+          <ul>
+            <li><a href="PaymentPolicy.html">CHÍNH SÁCH THANH TOÁN</a></li>
+
+            <li><a href="Policy.html">BẢO HÀNH VÀ ĐỔI TRẢ</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer-bottom -->
+</body>
+
+</html>
